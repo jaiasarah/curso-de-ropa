@@ -1,0 +1,30 @@
+def imprimirmenu():
+    print("Buenos dias! Parece que vas a salir! Necesitas ayuda con la ropa?")
+    print("Elegí alguna de las siguientes opciones:")
+    print("1- Me quiero poner un vestido")
+    print("2- Me quiero poner remera y pollera")
+    print("3- Me quiero poner una tunica")
+    print("4- Otras recomendaciones")
+    print("5- Salir")
+
+imprimirmenu()
+
+def menu():
+    opcion=int(input())
+    if(opcion==1):
+        print("Acá te pongo al tanto de una regla importante:")
+        print("Nunca te lo pongas con un cinturon grueso y apretado, y menos si sos media gordita...")
+    elif(opcion==2):
+        print("Acá te pongo al tanto de unas reglas importantes:")
+        print("A- Nunca te pongas azul y negro junto, queda muy feo")
+        print("B- Nunca te pongas rayado y cuadriculado, floreado y punteado o cualquier opcion que se combine dos estampados distintos, recordá que siempre que te pones algún estampado la otra parte tiene que ser lisa")
+    elif(opcion==3):
+        print("Nunca te pongas una pollera amplia debajo de una tunica, siempre recta o tubo")
+    elif (opcion==4):
+        print("Algunas recomendaciones:")
+        print("A- Nunca uses las medias caidas, queda muy feo")
+        print("B- Si tenes alguna duda nos podes llamar al 46753676 o adjuntar una foto para que veamos como estas y ayudarte")
+  
+    else:
+        print("Esperamos que hayas disfrutado y que estes muy linda!")
+menu()
